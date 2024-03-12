@@ -6,7 +6,6 @@ Setup an `.env` file containing:
 
 ```
 NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=
-NEXT_PUBLIC_ALCHEMY_API=
 ```
 
 ## Getting Started
