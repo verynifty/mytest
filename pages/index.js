@@ -32,6 +32,12 @@ import APICall from 'components/render/apiCall';
 import PleaseConnect from 'components/render/pleaseConnect';
 
 
+import ERC20ABI from 'ABIS/ERC20.json';
+import ERC721ABI from 'ABIS/ERC721.json';
+import ERC1155ABI from 'ABIS/ERC1155.json';
+
+const ABIs ={ "ERC20": ERC20ABI, "ERC1155": ERC1155ABI, "ERC721": ERC721ABI }
+
 const Page = (props) => {
 
   const tokenAddress = "0x90b8ff52b4dc225acf5c9a2409f92d1e062f39f3";
