@@ -197,7 +197,7 @@ const WriteContract = (props) => {
             }
         }
         setPreparedTransaction(tx);
-        return preparedTransaction;
+        return tx;
     }
 
     for (const [index, input] of getFunction().inputs.entries()) {
